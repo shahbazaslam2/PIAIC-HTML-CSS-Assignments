@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1 align="center">Forms</h1>
+    <table>
+        <form action="mailto:shahbazaslam2003@gmail.com">
+           <fieldset>
+               <legend>Personal details</legend>
+            First Name:
+        <input type="text" name="firstname" size="15" maxlength="30" required/>
+        <br />
+        <br />
+        Last Name:
+        <input type="text" name="lastname" size="15" maxlength="30" required/>
+        <br />
+        <br />
+        E-Mail:
+        <input type="email" name="email" size="18" required/>
+        <br />
+        <br />
+        Password:
+        <input type="password" name="password" size="15" required/>
+        <br />
+        <br />
+        Gender:
+        <label><input type="radio" name="gender" value="m" />Male</label>
+        <label><input type="radio" name="gender" value="f" />Female</label>
+        <br />
+        <br />
+        Date of birth:
+        <input type="date" name="dob" />
+     </fieldset>
+      <fieldset>
+          <legend>Your Review</legend>
+          <h2>Are you interested in the course?</h2>
+          <input type="checkbox" name="CNC" />CNC (Cloud Native Computing)
+          <br />
+          <input type="checkbox" name="AI" />AI (Artificial Intelligence)
+          <br />
+          <input type="checkbox" name="IOT" />IOT (Internet Of Things)
+          <br />
+          <input type="checkbox" name="BC" />BC (BlockChain)
+          <br />
+          <br />
+          <textarea name="message" cols="30" rows="10">Enter Your Message...</textarea>
+      </fieldset>
+      <center><input style="font-size: 40px;" type="submit" value="Submit" /></center>
+        </form>
+    </table>
+</body>
+</html>
