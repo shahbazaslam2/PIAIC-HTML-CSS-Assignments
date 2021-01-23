@@ -1,0 +1,57 @@
+#mainheading{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 50px;
+    color: gray;
+}
+#piaic{
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.6);
+    font-size: 40px;
+    font-family: Times, "Times New Roman", serif;
+    color: rgb(36, 34, 34);
+}
+#info{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+.course{
+    font-size: 30px;
+}
+#cnc{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 30px;
+    color: gray;
+}
+#cncinfo{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 20px;    
+}
+#ai{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 30px;
+    color: gray;
+}
+#aiinfo{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 20px;    
+}
+#bc{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 30px;
+    color: gray;
+}
+#bcinfo{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 20px;    
+}
+#iot{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 30px;
+    color: gray;
+}
+#iotinfo{
+    font-family: "Arial", "Sans-seriff";
+    font-size: 20px;
+}
+a{
+    color: rgb(59, 54, 54);
+}
