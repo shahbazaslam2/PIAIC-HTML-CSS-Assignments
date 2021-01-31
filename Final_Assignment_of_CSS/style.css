@@ -1,0 +1,191 @@
+.icons{
+  background-color: rgb(110, 97, 97);
+}
+.phone-no{
+  float: right;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background:black;
+  color: white;
+}
+.fa-youtube {
+  background: black;
+  color: white;
+}
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0%;
+  width: 100%;
+}
+.logo{
+  cursor: pointer;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0 5px;
+  color:rgb(79, 196, 79);
+  font-size: 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color:rgb(5, 117, 155);
+}
+.nav_links li a:hover {
+  color: rgb(62, 13, 117);
+}
+
+#h1-a{
+  color: black;
+  text-align: center;
+}
+h1 #h1-b{
+  color: rgb(47, 214, 47);
+}
+.p1{
+  text-align: center;
+  color: rgb(133, 128, 128);
+}
+.our-advantages{
+  text-align  : center;
+  font-size: 13px;
+  font-weight: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.image-our-advantages{
+  width: 100px;
+  align-items: center;
+}
+#about-us{
+  background-image:url(./assests/our\ dged.svg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400 px;
+  text-align: left;
+  padding: 20px;
+}
+#h2-a{
+  color: rgb(47, 214, 47);
+  text-align: center;
+}
+h1 #h2-b{
+  color:black;
+}
+#h3-a{
+  color: black;
+  text-align: center;
+}
+h2 #h3-b{
+  color: rgb(47, 214, 47);
+}
+#services{
+  text-align: center;
+}
+.services{
+  width: 1000px;
+}
+#card{
+  display: flex;
+}
+.header{
+  font-size: 25px;
+}
+.our-advantages-header{
+  font-size: 30px;
+}
+
+.h4-a{
+  color: black;
+  text-align: center;
+}
+h2 .h4-b{
+  color: rgb(47, 214, 47);
+}
+#our-process{
+  text-align: center;
+}
+.our-process-step{
+  display: flex;
+  padding-top: 0%;
+  padding-left: 5%;
+  justify-content: space-between;
+}
+.opsh{
+  font-size: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+.h5-a{
+  color: black;
+  text-align: center;
+}
+h2 .h5-b{
+  color: rgb(47, 214, 47);
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.pau{
+  display: flex;
+  padding: 20%;
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+.h6-a{
+  color: black;
+  text-align: center;
+}
+h2 .h6-b{
+  color: rgb(47, 214, 47);
+}
+#our-skills{
+  text-align: center;
+}
+.os{
+  display: flex;
+  justify-content: space-evenly;
+}
+.osh{
+  font-size: 15px;
+}
+.h7{
+  text-align: center;
+}
+.h8-a{
+  color: black;
+  text-align: center;
+}
+h2 .h8-b{
+  color: rgb(47, 214, 47);
+}
+.cunum{
+  display: inline-block;
+}
+#footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(80, 240, 80);
+  color: white;
+}
